@@ -152,7 +152,7 @@ void IIRFILTSOS(_execute)(IIRFILTSOS() _q,
                           TO *         _y)
 {
     // execute type-specific code
-    IIRFILTSOS(_execute_df2)(_q,_x,_y);
+    IIRFILTSOS(_execute_df1)(_q,_x,_y);
 }
 
 
